@@ -20,6 +20,11 @@ const Register = () => {
               <label htmlFor='password'>Password</label>
               <input className='px-3 py-2 outline-none border border-[#fffaf0] bg-transparent rounded-md' type='password' name='password' placeholder='Enter password' id='password' required />
             </div>
+
+            <div className='flex items-center w-full gap-3 mb-3'>
+            <input className='h-4 w-4 text-gray-950 overflow-hidden bg-white rounded border-white focus:ring-black' type='checkbox' name='checkbox' id='checkbox'  />
+            <label htmlFor='checkbox' className='text-sm font-medium'>I agree to the terms and conditions</label>
+            </div>
           </form>
         </div>
       </div>
