@@ -12,6 +12,14 @@ const Register = () => {
               <label htmlFor='name'>Name</label>
               <input className='px-3 py-2 outline-none border border-[#fffaf0] bg-transparent rounded-md' type='text' name='name' placeholder='Enter name' id='name' required />
             </div>
+            <div className='flex flex-col w-full gap-1 mb-3'>
+              <label htmlFor='email'>Email</label>
+              <input className='px-3 py-2 outline-none border border-[#fffaf0] bg-transparent rounded-md' type='text' name='email' placeholder='Enter email' id='email' required />
+            </div>
+            <div className='flex flex-col w-full gap-1 mb-3'>
+              <label htmlFor='password'>Password</label>
+              <input className='px-3 py-2 outline-none border border-[#fffaf0] bg-transparent rounded-md' type='password' name='password' placeholder='Enter password' id='password' required />
+            </div>
           </form>
         </div>
       </div>
