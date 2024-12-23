@@ -1,9 +1,9 @@
+import { useState } from 'react'
+import Router from './router/Router'
+
 function App() {
-  return (
-    <div>
-      <h1 className='logo text-3xl'>CyberMarket</h1>
-      <h2>Home Page</h2>
-    </div>
-  )
+  const [allRoutes, setAllRoutes] = useState([])
+  
+  return <Router allRoutes={allRoutes} />
 }
 export default App
