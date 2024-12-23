@@ -6,8 +6,6 @@
 
 body {
   font-family: 'League Spartan', sans-serif;
-  background-color: #012222;
-  color: #fffaf0;
 }
 
 .title {
@@ -16,6 +14,4 @@ body {
 
 .logo {
   font-family: 'Fredericka the Great', serif;
-  color: #fefebd;
-  letter-spacing: 2px;
 }
