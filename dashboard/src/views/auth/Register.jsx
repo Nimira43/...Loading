@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { FcGoogle } from 'react-icons/fc'
+import { RiFacebookFill } from 'react-icons/ri'
 
 const Register = () => {
   return (
@@ -42,6 +43,11 @@ const Register = () => {
               <div className='w-[135px] h-[35px] flex rounded-md bg-[#fffaf0] justify-center items-center cursor-pointer overflow-hidden'>
                 <span>
                   <FcGoogle />
+                </span>
+              </div>
+              <div className='w-[135px] h-[35px] flex rounded-md bg-[#fffaf0] justify-center items-center cursor-pointer overflow-hidden'>
+                <span>
+                  <RiFacebookFill className='text-[#1877F2]' />
                 </span>
               </div>
             </div>
