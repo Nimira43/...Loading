@@ -28,14 +28,14 @@ const Register = () => {
               <input className='h-4 w-4 text-[#333] overflow-hidden bg-white rounded border-white focus:ring-black' type='checkbox' name='checkbox' id='checkbox' />
               <label htmlFor='checkbox' className='text-sm font-medium'>I agree to the terms and conditions</label>
             </div>
-            <button className='bg-[#fffaf0] text-[#ff4500] w-full hover:text-[#333] uppercase rounded-md px-7 py-2 mb-3' >Sign Up</button>
+            <button className='bg-[#fffaf0] text-[#ff4500] w-full hover:text-[#333] uppercase font-medium rounded-md px-7 py-2 mb-3' >Sign Up</button>
             <div className='flex items-center mb-3 gap-3 justify-center text-sm'>
               <p>Already have an account? <Link className='font-semibold' to='/login'>Sign In</Link></p>
             </div>
             <div className='w-full flex justify-center items-center mb-3'>
               <div className='w-[45%] bg-[#fffaf0] h-[1px]'></div>
               <div className='w-[10%] flex justify-center items-center'>
-                <span className='pb-1'>Or</span>
+                <span className='pb-1'>or</span>
               </div>
               <div className='w-[45%] bg-[#fffaf0] h-[1px]'></div>
             </div>
