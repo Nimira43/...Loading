@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { FcGoogle } from 'react-icons/fc'
 
 const Register = () => {
   return (
@@ -37,7 +38,13 @@ const Register = () => {
               </div>
               <div className='w-[45%] bg-[#fffaf0] h-[1px]'></div>
             </div>
-            
+            <div className='flex justify-center items-center gap-3'>
+              <div className='w-[135px] h-[35px] flex rounded-md bg-[#fffaf0] justify-center items-center cursor-pointer overflow-hidden'>
+                <span>
+                  <FcGoogle />
+                </span>
+              </div>
+            </div>
           </form>
         </div>
       </div>
