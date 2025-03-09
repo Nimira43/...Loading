@@ -5,6 +5,10 @@
   font-weight: '300';
 }
 
+html {
+  font-size: 62.5%;
+}
+
 :root {
   --primary: #ff4500;
   --secondary: #008080;
@@ -13,9 +17,29 @@
   --grey-light-extra: #eee;
   --grey-light: #ccc;
   --grey-medium: #999;
-  --grey-dark: #333; 
+  --grey-dark: #333;
+  --size-1: 1px;          /* 0.1rem */
+  --size-2: 2px;          /* 0.2rem */
+  --size-3: 3px;          /* 0.3rem */
+  --size-4: 4px;          /* 0.4rem */
+  --size-5: 5px;          /* 0.5rem */
+  --size-6: 6px;          /* 0.6rem */
+  --size-8: 8px;          /* 0.8rem */
+  --size-12: 12px;        /* 1.2rem */
+  --size-14: 14px;        /* 1.4rem */
+  --rem-1: 1rem;          /* 10px */
+  --rem-1-5: 1.5rem;      /* 15px */
+  --rem-1-6: 1.6rem;      /* 16px */
+  --rem-2: 2rem;          /* 20px */
+  --rem-2-5: 2.5rem;      /* 25px */
+  --rem-3: 3rem;          /* 30px */
+  --rem-3-5: 3.5rem;      /* 35px */
+  --rem-4: 4rem;          /* 40px */
+  --rem-5: 5rem;          /* 50px */
+  --rem-6: 6rem;          /* 60px */
+  --rem-8: 8rem;          /* 80px */
+  --rem-10: 10rem;        /* 100px */
 }
-
 
 .feature-font {
   font-family: 'VT323', monospace;
