@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=VT323&display=swap');
+
+* {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: '300';
+}
+
+:root {
+  --primary: #ff4500;
+  --secondary: #008080;
+  --light: #fffcfa;
+  --dark: #111;
+  --grey-light-extra: #eee;
+  --grey-light: #ccc;
+  --grey-medium: #999;
+  --grey-dark: #333; 
+}
+
+
+.feature-font {
+  font-family: 'VT323', monospace;
+}
